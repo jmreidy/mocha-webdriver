@@ -1,0 +1,51 @@
+{
+  "name": "mocha-webdriver",
+  "description": "Grunt task to run Mocha tests against PhantomJS or Saucelabs",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha test/test/*.js"
+  },
+  "author": "Justin Reidy <jmreidy@rzrsharp.net>",
+  "contributors": [
+    {
+      "name": "Justin Reidy",
+      "email": "jmreidy@rzrsharp.net"
+    }
+  ],
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jmreidy/mocha-webdriver/blob/master/LICENSE-MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmreidy/mocha-webdriver.git"
+  },
+  "bugs": "https://github.com/jmreidy/mocha-webdriver/issues/",
+  "keywords": [
+    "mocha",
+    "e2e",
+    "webdriver",
+    "phantomjs",
+    "saucelabs"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^2.4.1",
+    "mocha": "^1.20.0",
+    "sauce-tunnel": "^2.1.0",
+    "selenium-launcher": "git://github.com/wookiehangover/nodejs-selenium-launcher.git",
+    "wd": "^0.3.3"
+  },
+  "devDependencies": {
+    "phantomjs": "~1.9.2"
+  },
+  "peerDependencies": {
+    "phantomjs": "~1.9.2"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
